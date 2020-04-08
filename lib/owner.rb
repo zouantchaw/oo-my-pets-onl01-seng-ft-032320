@@ -82,4 +82,8 @@ class Owner
     }
   end 
   
+  def list_pets
+    puts "I have #{Owner.count}"
+  end 
+  
 end
