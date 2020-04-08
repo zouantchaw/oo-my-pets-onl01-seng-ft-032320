@@ -83,9 +83,7 @@ class Owner
   end 
   
   def list_pets
-    dog_count = all.count if all.name == Cat 
-    cat_count = all.count if all.name == Dog
-    puts "I have #{dog_count} dogs, and #{cat_count} cats."
+    "I have #{dogs.count} dog(s), and #{cats.count} cats(s)."
   end 
   
 end
