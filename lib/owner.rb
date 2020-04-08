@@ -83,6 +83,7 @@ class Owner
   end 
   
   def list_pets
+    dog_count = all.count if 
     puts "I have #{Owner.count}"
   end 
   
